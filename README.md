@@ -3,5 +3,5 @@
 
 
 - Can only handle Integer inputs,
- but will print a float String if Divided.
+ but will print a float string if divided.
 - It can Add, Subtract, Divide, and Multiply.
