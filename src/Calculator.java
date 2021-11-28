@@ -77,34 +77,6 @@ public class Calculator {
 		return answer;
 	}
 	
-//	public static String operate(float first_num, float second_num, String operation) {
-//		String answer = "";
-//		float result = 0;
-//	
-//		switch (operation) {
-//		case "a":
-//			//add
-//			result = first_num + second_num;
-//			break;
-//		case "s":
-//			//subtract
-//			result = first_num - second_num;
-//			break;
-//		case "m":
-//			result = first_num * second_num;
-//			break;
-//		case "d":
-//			//divide
-//			result = first_num / second_num;
-//			break;
-//		default:
-//			assert(1==2);
-//		}
-//		answer = String.valueOf(result);
-//		
-//		return answer;
-//	}
-	
 	public static int enter_int() {
 		int input = 0;
 		
