@@ -1,10 +1,18 @@
 
+/**
+ * This is a simple CLI calculator I made for learning purposes.
+ * 
+ * @author Anthony Asp
+ */
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class Calculator {
 	private static Scanner scanner = new Scanner(System.in);
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		System.out.println("Welcome to Anthony's first Java Program, a Calculator.");
 
@@ -26,6 +34,9 @@ public class Calculator {
 		System.out.println(answer);
 	}
 
+	/**
+	 * @return boolean
+	 */
 	public static boolean yes_or_no() {
 
 		String input = "";
@@ -46,6 +57,12 @@ public class Calculator {
 		}
 	}
 
+	/**
+	 * @param first_num
+	 * @param second_num
+	 * @param operation
+	 * @return String
+	 */
 	public static String operate(int first_num, int second_num, String operation) {
 		String answer = "";
 
@@ -76,6 +93,9 @@ public class Calculator {
 		return answer;
 	}
 
+	/**
+	 * @return int
+	 */
 	public static int enter_int() {
 		int input = 0;
 
@@ -93,6 +113,9 @@ public class Calculator {
 		}
 	}
 
+	/**
+	 * @return String
+	 */
 	public static String what_operation() {
 
 		while (true) {
